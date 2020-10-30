@@ -1,51 +1,64 @@
 :root {
   --orange: #eb942b;
   --black: #151515;
-  --lightBlue: #367d87;
+  --lightBlue: #02a3b9;
   --xxlightBlue: #3284b3;
   --lightGreem: #0d5d56;
   --white: #ffffff;
 }
+* {
+  padding: 0;
+  margin: 0;
+}
 html {
   height: 100%;
+  padding: 0;
   background-image: url("test.png");
   background-size: 100%;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
   font-family: "Open Sans", sans-serif;
 }
 a {
   letter-spacing: 10px;
   text-decoration: none;
-  border-style: solid;
+  border-style: hidden hidden solid;
   color: var(--white);
-  background-color: var(--black);
+  background-image: -moz-linear-gradient(var(--white), var(--black));
   padding: 0 43px 0 43px;
 }
 
 #Title {
+  padding: 0%;
   color: var(--white);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, var(--lightBlue) 0%, var(--black) 100%);
   text-align: center;
 }
 #Title h1 {
   margin: 0;
   letter-spacing: 30px;
   font-size: 500%;
-  /*margin-top: auto;*/
 }
 #Navigation {
   text-align: center;
   float: none;
   padding: 0%;
   font-size: 150%;
+  font-weight: 900%;
   list-style: none;
 }
 #Navigation .Selected {
   color: var(--orange);
-  background-color: var(--black);
+  background-color: none;
   font-weight: bold;
 }
 #Content {
-  background-color: #055864;
+  background-color: rgb(0, 0, 0, 50);
+  color: var(--white);
+  font-size: 25px;
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
