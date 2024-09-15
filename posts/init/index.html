@@ -76,9 +76,20 @@
 
 
 <main><h1 id="this-is-my-code">This is my code</h1>
-<pre tabindex="0"><code>npm install nodejs
-hugo server 
-</code></pre><p><p class="imgp">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-typescript" data-lang="typescript"><span style="display:flex;"><span><span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">Book</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">title</span>: <span style="color:#66d9ef">string</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">author</span>: <span style="color:#66d9ef">string</span>;
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">publishedYear</span>: <span style="color:#66d9ef">number</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Library</span> {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#a6e22e">books</span>: <span style="color:#66d9ef">Book</span>[] <span style="color:#f92672">=</span> [];
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">addBook</span>(<span style="color:#a6e22e">book</span>: <span style="color:#66d9ef">Book</span>)<span style="color:#f92672">:</span> <span style="color:#66d9ef">void</span> {
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">this</span>.<span style="color:#a6e22e">books</span>.<span style="color:#a6e22e">push</span>(<span style="color:#a6e22e">book</span>);
+</span></span><span style="display:flex;"><span>    }
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p><p class="imgp">
   <img loading="lazy" src="/images/2400%d1%851260-rw-blog-node-js.png" alt="Alt text"  />
 </p>
 </p>
@@ -224,7 +235,7 @@ window.store = {
     "http:\/\/localhost:1313\/posts\/init\/": {
         "title": "Init",
         "tags": [],
-        "content": "This is my code npm install nodejs hugo server ", 
+        "content": "This is my code interface Book { title: string; author: string; publishedYear: number; } class Library { private books: Book[] = []; addBook(book: Book): void { this.books.push(book); } } ", 
         "url": "http:\/\/localhost:1313\/posts\/init\/"
     },
     
