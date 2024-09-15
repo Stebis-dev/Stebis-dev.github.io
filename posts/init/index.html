@@ -51,10 +51,13 @@
         <nav>
           <ul class="menu">
             
+                <li><a tabindex="-1" class="menu-link" href="/docs/">Docs</a></li>
+            
+                <li><a tabindex="-1" class="menu-link" href="/posts/">Posts</a></li>
+            
           </ul>
         </nav>
         
-
 
 
 
@@ -232,11 +235,18 @@
 <script>
 window.store = {
     
-    "http:\/\/localhost:1313\/posts\/init\/": {
-        "title": "Init",
+    "http:\/\/localhost:1313\/docs\/2r2\/": {
+        "title": "2r2",
         "tags": [],
-        "content": "This is my code interface Book { title: string; author: string; publishedYear: number; } class Library { private books: Book[] = []; addBook(book: Book): void { this.books.push(book); } } ", 
-        "url": "http:\/\/localhost:1313\/posts\/init\/"
+        "content": "Ready 2 Run: A Comprehensive Guide In the world of software development, one of the most crucial aspects is getting your application from development to production as seamlessly as possible. The concept of \u0026ldquo;Ready 2 Run\u0026rdquo; (R2R) aims to streamline this process, ensuring that your application is optimized, easily deployable, and performs efficiently in a production environment. In this blog post, we’ll dive into what Ready 2 Run is, its benefits, and how to implement it in your projects.\n", 
+        "url": "http:\/\/localhost:1313\/docs\/2r2\/"
+    },
+    
+    "http:\/\/localhost:1313\/docs\/": {
+        "title": "Docs",
+        "tags": [],
+        "content": "", 
+        "url": "http:\/\/localhost:1313\/docs\/"
     },
     
     "http:\/\/localhost:1313\/": {
@@ -244,6 +254,13 @@ window.store = {
         "tags": [],
         "content": "", 
         "url": "http:\/\/localhost:1313\/"
+    },
+    
+    "http:\/\/localhost:1313\/posts\/init\/": {
+        "title": "Init",
+        "tags": [],
+        "content": "This is my code interface Book { title: string; author: string; publishedYear: number; } class Library { private books: Book[] = []; addBook(book: Book): void { this.books.push(book); } } ", 
+        "url": "http:\/\/localhost:1313\/posts\/init\/"
     },
     
     "http:\/\/localhost:1313\/posts\/": {
