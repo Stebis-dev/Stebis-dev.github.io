@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/init/</link>
       <pubDate>Sun, 15 Sep 2024 22:54:21 +0300</pubDate>
       <guid>http://localhost:1313/posts/init/</guid>
-      <description>&lt;h1 id=&#34;this-is-my-code&#34;&gt;This is my code&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm install nodejs&#xA;&lt;/code&gt;&lt;/pre&gt;</description>
+      <description>&lt;h1 id=&#34;this-is-my-code&#34;&gt;This is my code&lt;/h1&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npm install nodejs&#xA;hugo server &#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;p class=&#34;imgp&#34;&gt;&#xD;&#xA;  &lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/2400%d1%851260-rw-blog-node-js.png&#34; alt=&#34;Alt text&#34;  /&gt;&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
