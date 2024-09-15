@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MyBlog</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on MyBlog</description>
-    <generator>Hugo -- 0.134.2</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Sep 2024 21:37:59 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 15 Sep 2024 22:54:21 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My first post</title>
-      <link>http://localhost:1313/posts/test/</link>
-      <pubDate>Sun, 15 Sep 2024 21:37:59 +0300</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description></description>
+      <title>Init</title>
+      <link>http://localhost:1313/posts/init/</link>
+      <pubDate>Sun, 15 Sep 2024 22:54:21 +0300</pubDate>
+      <guid>http://localhost:1313/posts/init/</guid>
+      <description>&lt;h1 id=&#34;this-is-my-code&#34;&gt;This is my code&lt;/h1&gt;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;div class=&#34;codeblock&#34;&gt;&#xD;&#xA;    &#xD;&#xA;        &lt;div class=&#34;copy-button-box&#34;&gt;&#xD;&#xA;            &lt;button class=&#34;copy-button&#34; state=&#34;copy&#34; data=&#34;npm%20install%20nodejs&#34;&gt;&#xD;&#xA;                &lt;i class=&#34;bi bi-copy&#34;&gt;&lt;/i&gt;&#xD;&#xA;            &lt;/button&gt;&#xD;&#xA;        &lt;/div&gt;&#xD;&#xA;    &#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;        &lt;pre&gt;&lt;code&gt;npm install nodejs&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;    &#xD;&#xA;&lt;/div&gt;</description>
     </item>
   </channel>
 </rss>
